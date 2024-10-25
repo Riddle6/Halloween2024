@@ -100,11 +100,8 @@ img {
 } /* End of Desktop Media Query */
 
 
-main {
-
-}
-
-.skull img {
+/*========== Images & Content ==========*/
+#skull img  {
     display: block;
     margin: 0 auto;
 }
@@ -114,9 +111,31 @@ main {
     
 }
 
+#new img {
+    display: block;
+    float: right;
+    margin-right: 10%;
+    
+}
+
 .content {
-    text-align: center;
     padding: 3%;
+}
+
+#scary, .lore, .glow {
+    text-align: center;
+}
+
+.content #header {
+    font-size: 2.2em;
+    font-weight: 900;
+}
+
+.content .about {
+    clear: both;
+    background-color: #030645;
+    border-radius: 10px;
+    padding: 0.3em;
 }
 
 .content p {
@@ -137,6 +156,7 @@ main {
     border-radius: 15px;
 }
 
+/*============== ANIMATION =================*/
 .content .glow p {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
@@ -153,6 +173,31 @@ to {
     text-shadow: 0 0 20px #fff, 0 0 30px #fab907, 0 0 40px #fab907, 0 0 50px #fab907, 0 0 60px #fab907, 0 0 70px #fab907, 0 0 80px #fab907;
   }
 
+} /******** End of Animation ********/
+
+blockquote {
+    text-align: center;
+    color: #fff;
+    font-size: 1.8em;
+}
+
+.btn {
+
+}
+
+.btn button {
+    padding: 2%;
+    border-radius: 9px;
+    margin-left: 8%;
+    font-size: 1.25em;
+    background-color: #080e8e;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+.btn button:hover {
+    background-color: #05095d;
+    color: #cecece;
 }
 
 footer {
