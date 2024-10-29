@@ -76,6 +76,59 @@ img {
     max-width: 100%;
 }
 
+/*====== Media Cards ==========*/
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 2px solid #111;
+    background-color: #212121;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.card header {
+    padding: 3%;
+}
+
+.card header h2 {
+    color: #f39a2f;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.card-content {
+    font-size: 1.25em;
+    padding: 3%;
+    text-align: center;
+}
+
+.height {
+    min-height: 250px;
+    max-width: 350px;
+}
+
+.card1 {
+    float: right;
+    padding-bottom: 3%;
+    margin-right: 39%;
+}
+
+.card2 {
+    clear: both;
+    margin-right: 39%;
+    float: right;
+    padding-bottom: 3%;
+}
+
+.card3 {
+    clear: both;
+    float: right;
+    margin-right: 39%;
+    padding-bottom: 3%;
+}
+
+
 /********* Media Queries **********/
 
 
@@ -118,6 +171,11 @@ img {
     
 }
 
+#tombstone img {
+    display: block;
+    float: right;
+}
+
 .content {
     padding: 3%;
 }
@@ -156,6 +214,12 @@ img {
     border-radius: 15px;
 }
 
+#trick {
+    text-align: center;
+    margin-right: 7.5%;
+    font-size: 2.6em;
+}
+
 /*============== ANIMATION =================*/
 .content .glow p {
     -webkit-animation: glow 1s ease-in-out infinite alternate;
@@ -181,10 +245,50 @@ blockquote {
     font-size: 1.8em;
 }
 
-.btn {
-
+form {
+    padding: 1%;
 }
 
+input {
+    border: solid thin #333;
+    font-size: 1.35em;
+    padding: 1%;
+    display: block;
+    text-align: left;
+    border-radius: 6px;
+    background-color: #1e1e24;
+    margin-bottom: 2%;
+    transition: 0.6s ease;
+    margin-left: 75%;
+    margin-top: 1%;
+}
+
+input:hover {
+    background-color: #4e4e56;
+    color: #b5b5be;
+}
+
+label {
+    font-size: 1.35em;
+    color: #474752;
+    margin-left: 75%;
+}
+
+.sub-btn {
+    margin-left: 81%;
+    margin-top: 4%;
+    
+}
+
+.skull-head img {
+    display: block;
+    margin: 0 auto;
+    border: solid thick #000;
+    border-radius: 75%;
+    background-color: #555;
+}
+
+/* Button in the about section */
 .btn button {
     padding: 2%;
     border-radius: 9px;
@@ -201,8 +305,9 @@ blockquote {
 }
 
 footer {
+    clear: both;
     text-align: center;
     padding: 2em;
-    background-color: #111;
+    background-color: #000;
     color: #c97c1e;
 }
